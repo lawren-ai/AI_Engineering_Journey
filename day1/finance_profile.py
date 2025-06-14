@@ -1,0 +1,6 @@
+name = input("What is your name?: \n")
+age = int(input("How old are you?: \n"))
+monthly_income = int(input("What's your monthly income?: \n"))
+savings_goal = int(input("What is your savings goal?: \n"))
+savings_duration = round(savings_goal / monthly_income)
+print(f"Hello {name}!\nAt {age} years old, with a monthly income of ${monthly_income},\nyou're aiming to save ${savings_goal}. Great goal.\nIt will take you {savings_duration} months.")
